@@ -14,7 +14,10 @@ h1{
 
 ul{
     margin-top: 20px;
+    padding: 5px ;
     list-style: none;
+    border-bottom: 1px solid #b0c6c4 ;
+    border-top: 1px solid #b0c6c4 ;
 }
 
 li{
