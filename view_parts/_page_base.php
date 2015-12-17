@@ -9,4 +9,6 @@
 <body>
 <?php
     require_once "_header.php";
+    require_once "_main_menu.php"; // référence au fichier de référence page_base = HEAD en HTML
+
 ?>
