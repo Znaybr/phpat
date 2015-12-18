@@ -8,8 +8,6 @@ $menu_data = array(
 );
 
 ?>
-
-
 <ul>
 <!--redondance balise <li> sur l'ensemble du tableau ci-dessus-->
   <?php
@@ -18,6 +16,3 @@ $menu_data = array(
     }
   ?>
 </ul>
-
-<!--/*foreach ul li a*/
--->
