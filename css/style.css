@@ -14,13 +14,24 @@ h1{
     font-weight: 900;
 }
 
+h2{
+    margin-top: 30px;
+    color: #324553;
+    font-weight: 500;
+}
+
 #wrapper{
     width: 60%;
     margin:0 auto;
 }
 
+#main{
+    border: 1px solid #32baca;
+    height: 300px;
+}
 
-                                /* MENU */
+
+                            /* MENU */
 
 ul{
     margin-top: 20px;
@@ -46,8 +57,39 @@ a:hover{
     padding: 5px 10px;
     background-color: #f85723;
     color: #fff;
+    border: 0;
     border-radius: 2px;
 }
 
 
-                                /* FOOTER */
+                                /* LOGIN/OUT */
+
+form{
+    margin: 20px;
+}
+
+input{
+    margin-right: 20px;
+    border: 1px solid #32baca;
+}
+
+#dologin, #dologout{
+   display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #304653;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+
+#dologin:hover, #dologout{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #f85723;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+
