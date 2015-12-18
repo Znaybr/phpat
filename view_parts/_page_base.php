@@ -7,9 +7,5 @@
     <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<?php
-    require_once "_header.php";
-
-    require_once "_main_menu.php"; // référence au fichier de référence page_base = HEAD en HTML
-
-?>
+<div id="wrapper"> <!--OUVERTURE DU WRAPPER-->
+<?php require_once "_header.php"; ?>
