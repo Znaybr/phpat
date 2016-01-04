@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #fff;
     font-family: 'Gruppo', cursive;
 }
 
@@ -28,13 +27,15 @@ h2{
 }
 
 #main{
+    text-align: center;
+    margin: 10px;
     border: 1px solid #32baca;
     height: 300px;
 }
 
 
                             /* MENU PRINCIPAL */
-ul{
+#menu{
     margin-top: 20px;
     padding: 5px ;
     list-style: none;
@@ -42,7 +43,7 @@ ul{
     border-top: 1px solid #b0c6c4 ;
 }
 
-li{
+#menu li{
     display: inline-block;
     width: 100px;
     padding: 0 10px;
@@ -64,11 +65,12 @@ a:hover{
 
 
                                 /* FORMULAIRE : LOGIN/OUT */
-form{
+#login, #logout{
     margin: 20px;
 }
 
 input{
+    height: 20px;
     margin-right: 20px;
     border: 1px solid #32baca;
 }
@@ -91,4 +93,50 @@ input{
     color: #fff;
     border-radius: 2px;
     border: none;
+}
+
+
+                                /*PAGE INSCRIPTION - FORMULAIRE*/
+#inscription{
+    width: 70%;
+    margin: 15px auto;
+    vertical-align: middle;
+}
+
+#inscription li{
+    list-style: none;
+}
+
+#inscription ul{
+}
+
+#inscription label{
+    width: 120px;
+    display: inline-block;
+    text-align: left;
+}
+
+#inscription input{
+    width: 230px;
+    margin-bottom: 15px;
+    height: 20px;
+}
+
+
+                                /*PAGE CHAT*/
+#chat{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+#chat li{
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#user_pseudo{
+    font-weight: 900;
 }

@@ -8,7 +8,7 @@ $menu_data = array(
 );
 
 ?>
-<ul>
+<ul id="menu">
 <!--redondance balise <li> sur l'ensemble du tableau ci-dessus-->
   <?php
     foreach ($menu_data as $onglet => $lien){

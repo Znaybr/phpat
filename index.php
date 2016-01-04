@@ -9,5 +9,5 @@ require_once "view_parts/_page_base.php"; // référence au fichier de référen
 <div id="main"></div>
 
 <?php
-require_once "view_parts/_page_bottom.php"; // référence au fichier de référence page_base = HEAD en HTML
+require_once "view_parts/_page_bottom.php";
 ?>
