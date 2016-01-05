@@ -30,7 +30,7 @@ h2{
     text-align: center;
     margin: 10px;
     border: 1px solid #32baca;
-    height: 300px;
+    padding: 15px;
 }
 
 
@@ -120,6 +120,24 @@ input{
     width: 230px;
     margin-bottom: 15px;
     height: 20px;
+}
+
+#envoyer{
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #304653;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+
+#envoyer:hover{
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #f85723;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
 }
 
 
