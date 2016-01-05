@@ -140,6 +140,10 @@ input{
     border: none;
 }
 
+#inscription .erreur{
+    color: darkred;
+    font-weight: 800;
+}
 
                                 /*PAGE CHAT*/
 #chat{
