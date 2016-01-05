@@ -65,7 +65,7 @@ if (array_key_exists("mdp", $_POST)) {
     $mdp = filter_input(INPUT_POST, "mdp", FILTER_SANITIZE_STRING );
     $mdp_ok = (1 === preg_match("/^[A-Za-z0-9%&!*?]{8,}$/", $mdp));  // 1 siginifie que la condition est vraie et vérifiée
     if(!$mdp_ok){ // si nom est non valide
-        $m_message=" *";
+        $mdp_message=" *";
         $message_erreur=" Merci de corriger les champs comportants un *.";
     }
     /*    var_dump($mdp);
